@@ -1,9 +1,9 @@
 {
 "description": "serverless wordpress",
 	"scripts": {
-		"build": "diy-pwa build UX221-Practise-assign4",
+		"build": "diy-pwa build UX221-Assignment-4",
 		"build:cloudflare": "diy-pwa build",
-		"preview": "diy-pwa preview UX221-Practise-assign4"
+		"preview": "diy-pwa preview UX221-Assignment-4"
 	},
 	"devDependencies": {
 		"diy-pwa": "latest"
