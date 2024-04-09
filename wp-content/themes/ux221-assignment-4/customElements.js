@@ -12,10 +12,12 @@ class JaydenWasHere extends HTMLElement{
   }
 }
 
-customElements.define("x-Jayden", JaydenWasHere);
+customElements.define("x-jayden", JaydenWasHere);
 
 class TwoSidedMarket extends HTMLElement {
 	connectedCallback(){
-		this.innerHTML = <a herf="side-a">Side A</a>
+		this.innerHTML = '<a href="side-a">Side A</a>'
 	}
 }
+
+customElements.define("x-twoside", TwoSidedMarket);
