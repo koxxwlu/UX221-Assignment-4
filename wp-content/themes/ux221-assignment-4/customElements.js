@@ -13,3 +13,9 @@ class JaydenWasHere extends HTMLElement{
 }
 
 customElements.define("x-Jayden", JaydenWasHere);
+
+class TwoSidedMarket extends HTMLElement {
+	connectedCallback(){
+		this.innerHTML = <a herf="side-a">Side A</a>
+	}
+}
