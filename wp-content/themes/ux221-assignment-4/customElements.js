@@ -6,10 +6,10 @@ class CopyrightYear extends HTMLElement{
 
 customElements.define("x-year", CopyrightYear);
 
-class RichWasHere extends HTMLElement{
+class JaydenWasHere extends HTMLElement{
   connectedCallback(){
-    this.innerHTML = "Rich was here";
+    this.innerHTML = "Jayden was here";
   }
 }
 
-customElements.define("x-rich", RichWasHere);
+customElements.define("x-Jayden", JaydenWasHere);
